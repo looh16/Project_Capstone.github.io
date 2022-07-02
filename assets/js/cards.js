@@ -1,49 +1,37 @@
 const container = document.getElementById('cardContent');
-const parentDir = '../images/fitness/';
 let htmlCard = '';
 let pastHtmlCard = '';
 
 const cards = [
   {
-    img: `${parentDir}one.jpg`,
+    img: `/images/fitness/one.jpg`,
     title: 'Work',
     description:'Work hard in silence. Let success be your noise -Frank Ocean'
   },
   {
-    img: `${parentDir}two.jpg`,
+    img: `/images/fitness/two.jpg`,
     title: 'Fitness or Dance',
     description:'I try and groom myself, be it through fitness or dance. -Yami Gautam'
   },
   {
-    img: `${parentDir}three.jpg`,
+    img: `./images/fitness/three.jpg`,
     title: 'Age',
     description:'Fitness has nothing to do with age. -Virender Sehwag',
   },
   {
-    img: `${parentDir}four.jpg`,
+    img: `./images/fitness/four.jpg`,
     title: 'Discipline',
     description:'In fitness, there are no short cuts. It involves immense discipline and hard work. -Mahesh Babu',
   },
   {
-    img: `${parentDir}five.jpg`,
+    img: `./images/fitness/five.jpg`,
     title: 'Training',
     description:'You can always improve your fitness if you keep training. -Pastor Maldonad',
   },
   {
-    img: `${parentDir}seven.jpg`,
+    img: `./images/fitness/seven.jpg`,
     title: 'Three Things',
     description:'I understand only three things – films, fitness, and food. -Rakul Preet Singh',
-  },
-];
-
-const pastCards = [
-  {
-    img: `${parentDir}one.jpg`,
-    title: 'Work hard in silence. Let success be your noise -Frank Ocean',
-  },
-  {
-    img: `${parentDir}two.jpg`,
-    title: 'I try and groom myself, be it through fitness or dance. -Yami Gautam',
   },
 ];
 
