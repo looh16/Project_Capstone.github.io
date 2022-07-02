@@ -1,5 +1,5 @@
 const container = document.getElementById('cardContent');
-const parentDir = './images/fitness/';
+const parentDir = '.././images/fitness/';
 let htmlCard = '';
 let pastHtmlCard = '';
 
