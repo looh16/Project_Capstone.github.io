@@ -4,7 +4,7 @@ let pastHtmlCard = '';
 
 const cards = [
   {
-    img: `/images/fitness/one.jpg`,
+    img: `./images/fitness/one.jpg`,
     title: 'Work',
     description:'Work hard in silence. Let success be your noise -Frank Ocean'
   },
