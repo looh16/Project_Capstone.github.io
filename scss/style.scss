@@ -1,0 +1,14 @@
+
+@use 'custom';
+
+//import components
+@use 'components/typography';
+
+//import sections
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/about';
+@use 'sections/main-program';
+@use 'sections/activities';
+@use 'sections/partner';
+@use 'sections/footer';

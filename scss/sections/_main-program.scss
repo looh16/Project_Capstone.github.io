@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.main-program {
+  padding: 0 0 5rem 0;
+  background-color: $black;
+}
+
+.cards-program {
+  background-color: $gray;
+  width: 11rem;
+  height: fit-content;
+  box-shadow: 10rem;
+  margin: 0.2rem;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: contrast(0.8);
+  cursor: pointer;
+}

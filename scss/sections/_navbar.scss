@@ -1,0 +1,65 @@
+@use '../custom' as *;
+
+.menu {
+  background: $white;
+
+  img {
+    height: 3rem;
+    width: 7rem;
+  }
+
+  .navbar-toggler {
+    width: 47px;
+    height: 34px;
+    background-color: $orange;
+    border: none;
+  }
+
+  .nav-link {
+    color: $black;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  .nav-link .active {
+    color: $black;
+  }
+}
+
+.barMenu {
+  width: 100%;
+  background-color: $black;
+  overflow: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin-right: 1rem;
+    color: $gray;
+    text-decoration: none;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: small;
+
+    .i {
+      margin: 21rem;
+    }
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
