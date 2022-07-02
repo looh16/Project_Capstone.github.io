@@ -4,20 +4,12 @@ let pastHtmlCard = '';
 
 const cards = [
   {
-<<<<<<< HEAD
     img: `/images/fitness/one.jpg`,
-=======
-    img: `./images/fitness/one.jpg`,
->>>>>>> ca1499a5191291ffb343f700b3701e9da36536a8
     title: 'Work',
     description:'Work hard in silence. Let success be your noise -Frank Ocean'
   },
   {
-<<<<<<< HEAD
-    img: `/images/fitness/two.jpg`,
-=======
     img: `./images/fitness/two.jpg`,
->>>>>>> ca1499a5191291ffb343f700b3701e9da36536a8
     title: 'Fitness or Dance',
     description:'I try and groom myself, be it through fitness or dance. -Yami Gautam'
   },
